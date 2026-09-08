@@ -3,10 +3,18 @@
 macOS 메뉴 바에서 현재 시스템의 총 전력 사용량을 실시간으로 확인할 수 있는
 간단한 전력 모니터 앱입니다.
 
+<p align="center">
+	<img src="./images/powershow_image.png" alt="PowerShow 앱 아이콘" width="320">
+</p>
+
 > 이 앱이 표시하는 값은 하드웨어 전력 센서의 직접 측정값이 아니라 CPU와 GPU
 > 사용량을 바탕으로 계산한 추정값입니다. 실제 소비 전력과 차이가 있을 수 있습니다.
 
 ## 주요 기능
+
+<p align="center">
+	<img src="./images/ex_1.png" alt="메뉴 바에 표시된 PowerShow 전력 사용량" width="339">
+</p>
 
 - 메뉴 바에 추정 전력 사용량을 `W` 단위로 표시
 - 순간적인 변동을 줄이기 위해 최근 측정값을 평균내어 표시
@@ -16,6 +24,7 @@ macOS 메뉴 바에서 현재 시스템의 총 전력 사용량을 실시간으�
 ## 요구 사항
 
 - Apple Silicon Mac 권장
+- MacOS v26.6 이상 권장
 
 전력 특성은 Mac 모델과 macOS 버전에 따라 다르게 동작할 수 있습니다.
 
